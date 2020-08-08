@@ -5,7 +5,7 @@ import typescript from 'rollup-plugin-typescript2';
 import external from 'rollup-plugin-peer-deps-external';
 
 export default {
-  input: 'lib/index.ts',
+  input: 'src/index.ts',
   output: [
     {
       file: pckg.main,
