@@ -10,6 +10,9 @@
   "bugs": {
     "url": "https://github.com/SomtoUgeh/react-mono/issues"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "homepage": "https://github.com/SomtoUgeh/react-mono#readme",
   "module": "dist/index.es.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +27,7 @@
     "react",
     "open source",
     "payments",
-    "korapay",
+    "mono",
     "collections"
   ],
   "devDependencies": {
