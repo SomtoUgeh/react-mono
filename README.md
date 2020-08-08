@@ -10,9 +10,9 @@
 Install the npm package:
 
 ```bash
-npm install --save react-mono
+npm install --save react-mono-js
 # or
-yarn add react-mono
+yarn add react-mono-js
 ```
 
 Please checkout

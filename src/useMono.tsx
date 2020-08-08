@@ -7,7 +7,7 @@ import { MonoProps, MonoConfig } from './types';
  * @param config takes in configuration for mono
  * @returns handleMono function
  */
-export default function useKorapay(
+export default function useMono(
   monoConfig: MonoConfig
 ): ({ onSuccess, onClose }: MonoProps) => void {
   const [loaded, error] = useMonoScript();
