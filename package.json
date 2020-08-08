@@ -1,7 +1,7 @@
 {
   "name": "react-mono-js",
-  "version": "1.0.2",
-  "description": "This is a react package for implementing mono collection gateway",
+  "version": "1.0.3",
+  "description": "This is a react package for implementing mono enrollment gateway",
   "main": "dist/index.js",
   "repository": "https://github.com/SomtoUgeh/react-mono.git",
   "author": "Somto M.Ugeh <smugeh@gmail.com>",
