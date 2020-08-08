@@ -20,7 +20,7 @@ const MonoButton = ({
   disabled,
   ...config
 }: MonoButtonProps): JSX.Element => {
-  const handleMono = useMono(config);
+  const handleMono = useMono({ public_key: config.public_key });
 
   return (
     <button

@@ -7,9 +7,9 @@ import { MonoProps, MonoConfig } from './types';
  * @param config takes in configuration for mono
  * @returns handleMono function
  */
-export default function useMono(
-  monoConfig: MonoConfig
-): ({ onSuccess, onClose }: MonoProps) => void {
+export default function useMono({
+  public_key,
+}: MonoConfig): ({ onSuccess, onClose }: MonoProps) => void {
   const [loaded, error] = useMonoScript();
 
   React.useEffect(() => {
@@ -30,7 +30,7 @@ export default function useMono(
     if (loaded) {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      const connect = new window.Connect(monoConfig.public_key, {
+      const connect = new window.Connect(public_key, {
         onSuccess,
         onClose,
       });

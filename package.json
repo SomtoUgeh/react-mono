@@ -1,6 +1,6 @@
 {
   "name": "react-mono-js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is a react package for implementing mono enrollment gateway",
   "main": "dist/index.js",
   "repository": "https://github.com/SomtoUgeh/react-mono.git",
@@ -26,6 +26,10 @@
     "mono",
     "collections"
   ],
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0",
+    "react-dom": "^15.0.0 || ^16.0.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
