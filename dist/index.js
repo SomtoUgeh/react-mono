@@ -78,7 +78,8 @@ function useMono(_a) {
                 onSuccess: onSuccess,
                 onClose: onClose,
             });
-            return connect.setup() && connect.open();
+            connect.setup();
+            connect.open();
         }
     }
     return handleMono;

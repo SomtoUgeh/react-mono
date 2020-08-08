@@ -35,7 +35,8 @@ export default function useMono({
         onClose,
       });
 
-      return connect.setup() && connect.open();
+      connect.setup();
+      connect.open();
     }
   }
 
