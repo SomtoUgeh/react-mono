@@ -1,7 +1,7 @@
 # Mono for React
 
 > This is a React Package that helps you integrate Mono - https://withmono.com/
-> easily"
+> easily
 
 ## Install
 
@@ -11,7 +11,7 @@ Install the npm package:
 
 ```bash
 npm install --save react-mono
-# OR
+# or
 yarn add react-mono
 ```
 
