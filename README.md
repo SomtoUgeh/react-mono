@@ -17,15 +17,15 @@ yarn add react-mono-js
 
 ## Usage
 
-```react
-import React from "react";
-import { MonoButton, useMono } from "react-mono-js";
+```javascript
+import React from 'react';
+import { MonoButton, useMono } from 'react-mono-js';
 
 export default function App() {
   const config = {
-    public_key: "YOUR_CONNECT_PUBLIC_KEY",
+    public_key: 'YOUR_CONNECT_PUBLIC_KEY',
     onClose: () => {},
-    onSuccess: response => {
+    onSuccess: (response) => {
       console.log(response.code);
 
       /**
@@ -33,10 +33,10 @@ export default function App() {
         you can send this code back to your server to get this
         authenticated account and start making requests.
       */
-    }
+    },
   };
 
-  const handleMono = useMono(config);
+  const handleMono = useMono({ public_key: 'YOUR_CONNECT_PUBLIC_KEY' });
 
   return (
     <div className="App">
@@ -47,9 +47,9 @@ export default function App() {
         onClick={() =>
           handleMono({
             onClose: () => null,
-            onSuccess: response => {
+            onSuccess: (response) => {
               console.log(response.code);
-            }
+            },
           })
         }
       >
@@ -60,7 +60,6 @@ export default function App() {
     </div>
   );
 }
-</script>
 ```
 
 Please checkout
