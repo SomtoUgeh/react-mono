@@ -19,7 +19,7 @@ Please checkout
 [Mono Documentation](https://www.notion.so/Documentation-3cda635f4aa54e9bb6947ab60305db92)
 for more explanation
 
-Follow on Twitter [@somtougeh\_](https://twitter.com/SomtoUgeh)
+Follow on Twitter [@somtougeh](https://twitter.com/SomtoUgeh)
 
 ## License
 
