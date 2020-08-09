@@ -13,8 +13,6 @@ yarn add react-mono-js
 
 ## Usage
 
-- Basic - [CodeSandbox](https://codesandbox.io/s/react-mono-example-s02sx)
-
 ```javascript
 import React from 'react';
 import { MonoButton, useMono } from 'react-mono-js';
