@@ -79,7 +79,7 @@ function useMono(_a) {
                 onClose: onClose,
             });
             connect.setup();
-            connect.open();
+            return connect.open();
         }
     }
     return handleMono;
