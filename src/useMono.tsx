@@ -24,7 +24,7 @@ export default function useMono({
    */
   function handleMono({ onSuccess, onClose }: MonoProps): void {
     if (error) {
-      throw new Error('Unable to load korapay collection modal');
+      throw new Error('Unable to load mono collection modal');
     }
 
     if (loaded) {

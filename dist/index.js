@@ -69,7 +69,7 @@ function useMono(_a) {
     function handleMono(_a) {
         var onSuccess = _a.onSuccess, onClose = _a.onClose;
         if (error) {
-            throw new Error('Unable to load korapay collection modal');
+            throw new Error('Unable to load mono collection modal');
         }
         if (loaded) {
             // eslint-disable-next-line @typescript-eslint/ban-ts-comment
