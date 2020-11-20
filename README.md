@@ -1,6 +1,6 @@
 # Mono for React
 
-> This is a React Package that helps you integrate Mono - https://withmono.com/
+> This is a React Package that helps you integrate Mono - https://mono.co/
 > easily
 
 ## Install
@@ -62,7 +62,7 @@ Please checkout
 [Mono Documentation](https://www.notion.so/Documentation-3cda635f4aa54e9bb6947ab60305db92)
 for more explanation
 
-Follow on Twitter [@somtougeh](https://twitter.com/SomtoUgeh)
+Follow on Twitter [@ugehsomto](https://twitter.com/UgehSomto)
 
 ## License
 
